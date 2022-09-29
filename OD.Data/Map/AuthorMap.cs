@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using OD.Data.Models;
 
 namespace OD.Data.Map;
-
+//конфигуратор
 public class AuthorMap : IEntityTypeConfiguration<Author>
 {
     public void Configure(EntityTypeBuilder<Author> builder)
